@@ -72,11 +72,6 @@
     
          ?>      
         <div class="container">
-            <pre>
-                <?php
-
-                ?>
-            </pre>
             <h2>Selecciona un elemento para verificar tu diagnostico del tablero</h2>
             <form method="POST">
                 <input type=checkbox name="r1" value = "r1" id = "r1"/><label for="r1"><img src = "./Res/IMGS/r1.jpg"></label>   
