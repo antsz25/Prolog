@@ -84,7 +84,7 @@
             </form>
         </div>
         <div class = "container_response">
-            <h3>Resultados del diagnosticor</h3>
+            <h3>Resultados del diagnostico</h3>
             <div class = "answer">
                 <?php
                     if(isset($_POST['r1'])){$query = strtolower($_POST['r1']);$lastline = exec('swipl -s Prolog/Codigo.pl -g "esta_encendido(Y,'.$query.')" -t halt.',$output);foreach($output as $line){echo $line.'<br>';}$query = NULL;$output = NULL;$lastline=NULL;}
